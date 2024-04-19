@@ -15,3 +15,40 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+brians_list =["milk","eggs","bacon","beer"]
+
+bens_list = ["beer","cookies","apples"]
+
+#combine list and store in memory
+
+total_list = brians_list+ bens_list
+puts total_list
+puts ""
+#sort the list into a new list
+
+sorted_list = total_list.sort
+puts sorted_list
+puts""
+
+#remove non unique items from the list, que no quede repetido
+unique_list = sorted_list.uniq
+puts unique_list
+puts ""
+#write the list y que antes diga buy
+
+puts "Buy #{unique_list}"
+
+#or
+
+puts "buy #{unique_list[0]}"
+puts "buy #{unique_list[1]}"
+puts "buy #{unique_list[2]}"
+puts "buy #{unique_list[3]}"
+puts ""
+#.. y asi sucesivamente hasta 7
+
+# Pero ... podriamos haber hecho todo esto de otra forma
+
+unique_list_2 = (brians_list+bens_list).sort.uniq #forma abreviada de hacer todo lo mismo
+puts unique_list_2
