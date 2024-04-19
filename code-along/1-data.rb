@@ -24,7 +24,29 @@ puts true
 puts nil
 
 # Variables
+#store the number 5 in the computers memory, le asigno el number 5 a "x". No me aparece nada cuando lo corro porque no le pedi verlo, solo lo guarde
+x = 5
+
+puts x #para poder ver la variable que acabo de guardar - si pongo mal el nombre y pongo Y en vez de X, ruby no va a reconocer el objeto
+
+#replace value
+
+x=6
+puts x
+
+
+#change x
+x = x+1
+
+puts x
 
 # Combine strings and variables
+    #store taco in memory - uso nombres faciles que despues me van a ayudar a entender lo que guardé
+my_favourite_thing="tacos"
+    #store quantity in memory
+number_of_things=3
+    #display the 2 together - adentro de los "" puedo poner lo que quiera
+puts "my order is... #{number_of_things} #{my_favourite_thing}"
+
 
 # String manipulation
